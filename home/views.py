@@ -1,3 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+from home.models import Greeting
+
+
+def home_view(request):
+    return render(request, template_name="index.html", context={"greetings": Greeting.objects.all()})

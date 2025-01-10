@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-10 11:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: LearnI18N/settings.py:96
+msgid "English"
+msgstr "Anglais"
+
+#: LearnI18N/settings.py:97
+msgid "French"
+msgstr "Français"
+
+#: home/apps.py:8
+msgid "Home App"
+msgstr "Application Home"
+
+#: home/models.py:6
+msgid "Text"
+msgstr "Texte"
+
+#: home/models.py:14
+#, python-format
+msgid "This greeting has %(count)s word."
+msgid_plural "This greeting has %(count)s words."
+msgstr[0] "Cette salutation a %(count)s mot."
+msgstr[1] "Cette salutation a %(count)s mots."
+
+#: home/models.py:20
+msgid "Greeting"
+msgstr "Salutation"
+
+#: home/models.py:21
+msgid "Greetings"
+msgstr "Salutations"
+
+#: templates/index.html:40
+msgid "Cover"
+msgstr "Page de couverture"
+
+#: templates/index.html:42
+msgid "Home"
+msgstr "Accueil"
+
+#: templates/index.html:43
+msgid "Features"
+msgstr "Fonctionnalités"
+
+#: templates/index.html:44
+msgid "Contact"
+msgstr "Contact"
+
+#: templates/index.html:52
+msgid "Language"
+msgstr "Langue"
+
+#: templates/index.html:68
+msgid "Cover your page."
+msgstr "Personnalisez votre page."
+
+#: templates/index.html:70
+msgid ""
+"\n"
+"                Cover is a one-page template for building simple and "
+"beautiful home pages. Download, edit the\n"
+"                text, and add your own fullscreen background photo to make "
+"it your own.\n"
+"            "
+msgstr ""
+"\n"
+"                Cover est un modèle d'une page pour créer des pages "
+"d'accueil simples et élégantes. Téléchargez-le, modifiez le texte\n"
+"                et ajoutez votre propre photo de fond en plein écran pour le "
+"personnaliser.\n"
+"            "
+
+#: templates/index.html:77
+#, python-format
+msgid ""
+"\n"
+"            \tYour current language is `` %(current_lang)s ``\n"
+"            "
+msgstr ""
+"\n"
+"            \tVotre langue actuelle est `` %(current_lang)s ``\n"
+"            "
+
+#: templates/index.html:82
+msgid "greeting text"
+msgstr "Texte de salutation"
+
+#: templates/index.html:83
+msgid "greeting info"
+msgstr "Information sur la salutation"
+
+#: templates/index.html:86
+msgid "All available greetings : "
+msgstr "Toutes les salutations disponible : "
+
+#: templates/index.html:94
+msgid "Not available greeting, using django admin page to add."
+msgstr ""
+"Aucune salutations disponible, utilisez la page d'administration de django "
+"pour en ajouter."
+
+#: templates/index.html:99
+msgid "Sign up"
+msgstr "Inscription"
+
+#: templates/index.html:101
+msgid "Log in"
+msgstr "Connexion"
+
+#: templates/index.html:120
+msgid "Email address"
+msgstr "Adresse e-mail"
+
+#: templates/index.html:125
+msgid "Password"
+msgstr "Mot de passe"
